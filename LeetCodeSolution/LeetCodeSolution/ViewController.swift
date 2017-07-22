@@ -12,14 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //        let nums = [-2,0,3,-1,4,0,3,4,1,1,1,-3,-5,4,0]
+        //        let target = 6
+        
+        
+        let s = "2421"
+        //        print(nums.sorted())
+        //        print(threeSum(nums))
+        
+        print(letterCombinations(s))
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
