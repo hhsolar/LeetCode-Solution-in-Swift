@@ -21,6 +21,7 @@
 		18C3B3F61F232223003A327A /* StringToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3EE1F232223003A327A /* StringToInteger.swift */; };
 		18C3B3F71F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3EF1F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift */; };
 		18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3F01F232223003A327A /* ValidParatheses.swift */; };
+		18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3F91F23B093003A327A /* MergeTwoSortedLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		18C3B3EE1F232223003A327A /* StringToInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToInteger.swift; sourceTree = "<group>"; };
 		18C3B3EF1F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterCombinationsOfAPhoneNumbe.swift; sourceTree = "<group>"; };
 		18C3B3F01F232223003A327A /* ValidParatheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidParatheses.swift; sourceTree = "<group>"; };
+		18C3B3F91F23B093003A327A /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				18C3B3EE1F232223003A327A /* StringToInteger.swift */,
 				18C3B3EF1F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift */,
 				18C3B3F01F232223003A327A /* ValidParatheses.swift */,
+				18C3B3F91F23B093003A327A /* MergeTwoSortedLists.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				18C3B3F41F232223003A327A /* LengthOfLongestSubstring.swift in Sources */,
 				18C3B3F61F232223003A327A /* StringToInteger.swift in Sources */,
 				18C3B3F31F232223003A327A /* 3Sum.swift in Sources */,
+				18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */,
 				18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
