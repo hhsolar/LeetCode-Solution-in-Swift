@@ -22,6 +22,9 @@
 		18C3B3F71F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3EF1F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift */; };
 		18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3F01F232223003A327A /* ValidParatheses.swift */; };
 		18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3F91F23B093003A327A /* MergeTwoSortedLists.swift */; };
+		18C3B40B1F247E93003A327A /* MergeKSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B40A1F247E93003A327A /* MergeKSortedLists.swift */; };
+		18C3B40E1F24810C003A327A /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B40C1F24810C003A327A /* Heap.swift */; };
+		18C3B40F1F24810C003A327A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B40D1F24810C003A327A /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		18C3B3EF1F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterCombinationsOfAPhoneNumbe.swift; sourceTree = "<group>"; };
 		18C3B3F01F232223003A327A /* ValidParatheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidParatheses.swift; sourceTree = "<group>"; };
 		18C3B3F91F23B093003A327A /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		18C3B40A1F247E93003A327A /* MergeKSortedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeKSortedLists.swift; sourceTree = "<group>"; };
+		18C3B40C1F24810C003A327A /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		18C3B40D1F24810C003A327A /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		18C3B3D21F232113003A327A /* LeetCodeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				18C3B4011F243ED2003A327A /* Data Structure */,
 				18C3B3D51F232113003A327A /* ViewController.swift */,
 				18C3B3E81F23212D003A327A /* Supporting Files */,
 				18C3B3E91F232223003A327A /* LongestPalindromicSubstring.swift */,
@@ -85,6 +92,7 @@
 				18C3B3EF1F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift */,
 				18C3B3F01F232223003A327A /* ValidParatheses.swift */,
 				18C3B3F91F23B093003A327A /* MergeTwoSortedLists.swift */,
+				18C3B40A1F247E93003A327A /* MergeKSortedLists.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -100,6 +108,15 @@
 				18C3B3DA1F232113003A327A /* LeetCodeSolution.xcdatamodeld */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C3B4011F243ED2003A327A /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				18C3B40C1F24810C003A327A /* Heap.swift */,
+				18C3B40D1F24810C003A327A /* ListNode.swift */,
+			);
+			name = "Data Structure";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,11 +198,14 @@
 				18C3B3F71F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift in Sources */,
 				18C3B3F11F232223003A327A /* LongestPalindromicSubstring.swift in Sources */,
 				18C3B3D61F232113003A327A /* ViewController.swift in Sources */,
+				18C3B40E1F24810C003A327A /* Heap.swift in Sources */,
 				18C3B3D41F232113003A327A /* AppDelegate.swift in Sources */,
 				18C3B3F41F232223003A327A /* LengthOfLongestSubstring.swift in Sources */,
 				18C3B3F61F232223003A327A /* StringToInteger.swift in Sources */,
+				18C3B40F1F24810C003A327A /* ListNode.swift in Sources */,
 				18C3B3F31F232223003A327A /* 3Sum.swift in Sources */,
 				18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */,
+				18C3B40B1F247E93003A327A /* MergeKSortedLists.swift in Sources */,
 				18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
