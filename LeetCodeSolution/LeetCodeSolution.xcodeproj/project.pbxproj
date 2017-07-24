@@ -32,6 +32,7 @@
 		18C3B43A1F2580B5003A327A /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4391F2580B5003A327A /* Subsets.swift */; };
 		18C3B43C1F25BAE1003A327A /* ValidateBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B43B1F25BAE1003A327A /* ValidateBinarySearchTree.swift */; };
 		18C3B43E1F25BB0B003A327A /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B43D1F25BB0B003A327A /* BinaryTreeNode.swift */; };
+		18C3B4401F25D92E003A327A /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B43F1F25D92E003A327A /* PascalsTriangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		18C3B4391F2580B5003A327A /* Subsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		18C3B43B1F25BAE1003A327A /* ValidateBinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateBinarySearchTree.swift; sourceTree = "<group>"; };
 		18C3B43D1F25BB0B003A327A /* BinaryTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
+		18C3B43F1F25D92E003A327A /* PascalsTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				18C3B4371F25796C003A327A /* SetMatrixZeros.swift */,
 				18C3B4391F2580B5003A327A /* Subsets.swift */,
 				18C3B43B1F25BAE1003A327A /* ValidateBinarySearchTree.swift */,
+				18C3B43F1F25D92E003A327A /* PascalsTriangle.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				18C3B3F61F232223003A327A /* StringToInteger.swift in Sources */,
 				18C3B40F1F24810C003A327A /* ListNode.swift in Sources */,
 				18C3B3F31F232223003A327A /* 3Sum.swift in Sources */,
+				18C3B4401F25D92E003A327A /* PascalsTriangle.swift in Sources */,
 				18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */,
 				18C3B40B1F247E93003A327A /* MergeKSortedLists.swift in Sources */,
 				18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */,
