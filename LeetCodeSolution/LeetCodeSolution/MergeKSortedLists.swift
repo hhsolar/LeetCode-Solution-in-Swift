@@ -22,20 +22,20 @@ func mergeSort(_ lists: [ListNode?], start: Int, end: Int) -> ListNode? {
     let l1 = mergeSort(lists, start: start, end: mid)
     let l2 = mergeSort(lists, start: mid + 1, end: end)
     
-    return mergeTwoLists(l1, l2)
+    return mergeTwoList(l1, l2)
 }
 
-func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+func mergeTwoList(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     
     guard let l1 = l1 else { return l2 }
     guard let l2 = l2 else { return l1 }
     
     if l1.val < l2.val {
-        l1.next = mergeTwoLists(l1.next, l2)
+        l1.next = mergeTwoList(l1.next, l2)
         return l1
     }
     
-    l2.next = mergeTwoLists(l1, l2.next)
+    l2.next = mergeTwoList(l1, l2.next)
     return l2
     
 }

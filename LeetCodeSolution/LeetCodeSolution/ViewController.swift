@@ -18,11 +18,11 @@ class ViewController: UIViewController {
         //        let target = 6
         
         
-        let s = "2421"
+        let s = ["eat","tea","tan","ate","nat","bat"]
         //        print(nums.sorted())
         //        print(threeSum(nums))
         
-        print(letterCombinations(s))
+        print(groupAnagrams(s))
     }
 
 }
