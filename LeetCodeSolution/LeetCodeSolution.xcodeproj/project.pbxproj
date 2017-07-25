@@ -33,6 +33,12 @@
 		18C3B43C1F25BAE1003A327A /* ValidateBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B43B1F25BAE1003A327A /* ValidateBinarySearchTree.swift */; };
 		18C3B43E1F25BB0B003A327A /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B43D1F25BB0B003A327A /* BinaryTreeNode.swift */; };
 		18C3B4401F25D92E003A327A /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B43F1F25D92E003A327A /* PascalsTriangle.swift */; };
+		18C3B4421F26556A003A327A /* SubmissionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4411F26556A003A327A /* SubmissionDetails.swift */; };
+		18C3B4441F266FC0003A327A /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4431F266FC0003A327A /* BestTimeToBuyAndSellStock.swift */; };
+		18C3B4461F267FBC003A327A /* wordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4451F267FBC003A327A /* wordLadder.swift */; };
+		18C3B4481F270865003A327A /* WordLadder2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4471F270865003A327A /* WordLadder2.swift */; };
+		18C3B44A1F27C346003A327A /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4491F27C346003A327A /* WordBreak.swift */; };
+		18C3B44C1F27F19B003A327A /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B44B1F27F19B003A327A /* NumberOfIslands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +70,12 @@
 		18C3B43B1F25BAE1003A327A /* ValidateBinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateBinarySearchTree.swift; sourceTree = "<group>"; };
 		18C3B43D1F25BB0B003A327A /* BinaryTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
 		18C3B43F1F25D92E003A327A /* PascalsTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
+		18C3B4411F26556A003A327A /* SubmissionDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionDetails.swift; sourceTree = "<group>"; };
+		18C3B4431F266FC0003A327A /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
+		18C3B4451F267FBC003A327A /* wordLadder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wordLadder.swift; sourceTree = "<group>"; };
+		18C3B4471F270865003A327A /* WordLadder2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordLadder2.swift; sourceTree = "<group>"; };
+		18C3B4491F27C346003A327A /* WordBreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
+		18C3B44B1F27F19B003A327A /* NumberOfIslands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,12 @@
 				18C3B4391F2580B5003A327A /* Subsets.swift */,
 				18C3B43B1F25BAE1003A327A /* ValidateBinarySearchTree.swift */,
 				18C3B43F1F25D92E003A327A /* PascalsTriangle.swift */,
+				18C3B4411F26556A003A327A /* SubmissionDetails.swift */,
+				18C3B4431F266FC0003A327A /* BestTimeToBuyAndSellStock.swift */,
+				18C3B4451F267FBC003A327A /* wordLadder.swift */,
+				18C3B4471F270865003A327A /* WordLadder2.swift */,
+				18C3B4491F27C346003A327A /* WordBreak.swift */,
+				18C3B44B1F27F19B003A327A /* NumberOfIslands.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -226,15 +244,21 @@
 				18C3B3F71F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift in Sources */,
 				18C3B43C1F25BAE1003A327A /* ValidateBinarySearchTree.swift in Sources */,
 				18C3B4321F250F0E003A327A /* TrappingRainWater.swift in Sources */,
+				18C3B44C1F27F19B003A327A /* NumberOfIslands.swift in Sources */,
 				18C3B3F11F232223003A327A /* LongestPalindromicSubstring.swift in Sources */,
 				18C3B3D61F232113003A327A /* ViewController.swift in Sources */,
+				18C3B4481F270865003A327A /* WordLadder2.swift in Sources */,
+				18C3B4421F26556A003A327A /* SubmissionDetails.swift in Sources */,
 				18C3B40E1F24810C003A327A /* Heap.swift in Sources */,
 				18C3B3D41F232113003A327A /* AppDelegate.swift in Sources */,
 				18C3B3F41F232223003A327A /* LengthOfLongestSubstring.swift in Sources */,
+				18C3B4441F266FC0003A327A /* BestTimeToBuyAndSellStock.swift in Sources */,
 				18C3B3F61F232223003A327A /* StringToInteger.swift in Sources */,
+				18C3B44A1F27C346003A327A /* WordBreak.swift in Sources */,
 				18C3B40F1F24810C003A327A /* ListNode.swift in Sources */,
 				18C3B3F31F232223003A327A /* 3Sum.swift in Sources */,
 				18C3B4401F25D92E003A327A /* PascalsTriangle.swift in Sources */,
+				18C3B4461F267FBC003A327A /* wordLadder.swift in Sources */,
 				18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */,
 				18C3B40B1F247E93003A327A /* MergeKSortedLists.swift in Sources */,
 				18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */,

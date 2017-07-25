@@ -17,12 +17,14 @@ class ViewController: UIViewController {
         //        let nums = [-2,0,3,-1,4,0,3,4,1,1,1,-3,-5,4,0]
         //        let target = 6
         
-        
-        let s = ["eat","tea","tan","ate","nat","bat"]
-        //        print(nums.sorted())
+        var cs = [[Character]]()
+        let s = ["11110","11010","11000","00000"]        //        print(nums.sorted())
         //        print(threeSum(nums))
+        for c in s {
+            cs.append(Array(c.characters))
+        }
         
-        print(groupAnagrams(s))
+        print(numIslands(cs))
     }
 
 }
