@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        //        let nums = [-2,0,3,-1,4,0,3,4,1,1,1,-3,-5,4,0]
+        let s = [1,2,4,5,6,7]
         //        let target = 6
         
 //        let nums = [9, 0, -2]
@@ -23,16 +23,11 @@ class ViewController: UIViewController {
 //            cs.append(Array(c.characters))
 //        }
         
-        let n1 = ListNode(1)
-        let n2 = ListNode(2)
-        let n3 = ListNode(3)
-        n1.next = n2
-        n2.next = n3
-        
-        let h = reverseList(n1)
-        
-        print(h?.val, h?.next?.val, h?.next?.next?.val)
+        let h = findKthLargest(s, 5000)
+        print(h)
     }
 
 }
+
+
 

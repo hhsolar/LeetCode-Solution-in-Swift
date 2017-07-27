@@ -8,7 +8,7 @@
 
 import Foundation
 
-func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
+func searchMatrix1(_ matrix: [[Int]], _ target: Int) -> Bool {
     let a = matrix.flatMap{ $0 }
     guard !a.isEmpty else { return false }
     
