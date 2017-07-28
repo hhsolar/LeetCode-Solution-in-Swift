@@ -14,17 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        let s = [1,2,4,5,6,7]
-        //        let target = 6
+//        let root = TreeNode(1)
+//        root.left = TreeNode(2)
+        let s = "bbbab"
         
-//        let nums = [9, 0, -2]
-        //        print(threeSum(nums))
-//        for c in s {
-//            cs.append(Array(c.characters))
-//        }
-        
-        let h = findKthLargest(s, 5000)
-        print(h)
+        print(longestPalindromeSubseq(s))
     }
 
 }

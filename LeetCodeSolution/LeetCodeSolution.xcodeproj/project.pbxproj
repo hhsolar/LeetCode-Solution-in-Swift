@@ -51,6 +51,8 @@
 		18C3B4601F29ADD3003A327A /* TwoSumInputArraySorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B45F1F29ADD3003A327A /* TwoSumInputArraySorted.swift */; };
 		18C3B4641F29B38E003A327A /* CountPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4631F29B38E003A327A /* CountPrimes.swift */; };
 		18C3B4661F2A409C003A327A /* ThirdMaximumNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4651F2A409B003A327A /* ThirdMaximumNumber.swift */; };
+		18C3B4681F2B9817003A327A /* BinaryTreeRightSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4671F2B9817003A327A /* BinaryTreeRightSideView.swift */; };
+		18C3B46A1F2BB161003A327A /* LongestPalidromicSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4691F2BB161003A327A /* LongestPalidromicSubsequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +102,8 @@
 		18C3B45F1F29ADD3003A327A /* TwoSumInputArraySorted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSumInputArraySorted.swift; sourceTree = "<group>"; };
 		18C3B4631F29B38E003A327A /* CountPrimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountPrimes.swift; sourceTree = "<group>"; };
 		18C3B4651F2A409B003A327A /* ThirdMaximumNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdMaximumNumber.swift; sourceTree = "<group>"; };
+		18C3B4671F2B9817003A327A /* BinaryTreeRightSideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeRightSideView.swift; sourceTree = "<group>"; };
+		18C3B4691F2BB161003A327A /* LongestPalidromicSubsequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestPalidromicSubsequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				18C3B45F1F29ADD3003A327A /* TwoSumInputArraySorted.swift */,
 				18C3B4631F29B38E003A327A /* CountPrimes.swift */,
 				18C3B4651F2A409B003A327A /* ThirdMaximumNumber.swift */,
+				18C3B4671F2B9817003A327A /* BinaryTreeRightSideView.swift */,
+				18C3B4691F2BB161003A327A /* LongestPalidromicSubsequence.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				18C3B3D61F232113003A327A /* ViewController.swift in Sources */,
 				18C3B4481F270865003A327A /* WordLadder2.swift in Sources */,
 				18C3B4421F26556A003A327A /* SubmissionDetails.swift in Sources */,
+				18C3B4681F2B9817003A327A /* BinaryTreeRightSideView.swift in Sources */,
 				18C3B40E1F24810C003A327A /* Heap.swift in Sources */,
 				18C3B3D41F232113003A327A /* AppDelegate.swift in Sources */,
 				18C3B4541F2861F2003A327A /* ReverseLinkedList.swift in Sources */,
@@ -304,6 +311,7 @@
 				18C3B4461F267FBC003A327A /* wordLadder.swift in Sources */,
 				18C3B45C1F292436003A327A /* VaildAnagram.swift in Sources */,
 				18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */,
+				18C3B46A1F2BB161003A327A /* LongestPalidromicSubsequence.swift in Sources */,
 				18C3B40B1F247E93003A327A /* MergeKSortedLists.swift in Sources */,
 				18C3B4581F287B40003A327A /* SearchA2DMatrix.swift in Sources */,
 				18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */,
@@ -474,6 +482,7 @@
 				18C3B3E71F232113003A327A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
