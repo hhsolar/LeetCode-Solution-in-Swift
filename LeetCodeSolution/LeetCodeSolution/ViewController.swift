@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         
 //        let root = TreeNode(1)
 //        root.left = TreeNode(2)
-        let s = "bbbab"
+        let A = [4, 3, 2, 6]
         
-        print(longestPalindromeSubseq(s))
+        print(maxRotateFunction(A))
     }
 
 }

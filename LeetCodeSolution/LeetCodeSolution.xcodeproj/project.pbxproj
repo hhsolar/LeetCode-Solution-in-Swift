@@ -53,6 +53,8 @@
 		18C3B4661F2A409C003A327A /* ThirdMaximumNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4651F2A409B003A327A /* ThirdMaximumNumber.swift */; };
 		18C3B4681F2B9817003A327A /* BinaryTreeRightSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4671F2B9817003A327A /* BinaryTreeRightSideView.swift */; };
 		18C3B46A1F2BB161003A327A /* LongestPalidromicSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4691F2BB161003A327A /* LongestPalidromicSubsequence.swift */; };
+		18C3B46D1F2C50FE003A327A /* RotateFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B46C1F2C50FE003A327A /* RotateFunction.swift */; };
+		18C3B46F1F2CEEF2003A327A /* KdiffPairsInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B46E1F2CEEF2003A327A /* KdiffPairsInAnArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +106,8 @@
 		18C3B4651F2A409B003A327A /* ThirdMaximumNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdMaximumNumber.swift; sourceTree = "<group>"; };
 		18C3B4671F2B9817003A327A /* BinaryTreeRightSideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeRightSideView.swift; sourceTree = "<group>"; };
 		18C3B4691F2BB161003A327A /* LongestPalidromicSubsequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestPalidromicSubsequence.swift; sourceTree = "<group>"; };
+		18C3B46C1F2C50FE003A327A /* RotateFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateFunction.swift; sourceTree = "<group>"; };
+		18C3B46E1F2CEEF2003A327A /* KdiffPairsInAnArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KdiffPairsInAnArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				18C3B4651F2A409B003A327A /* ThirdMaximumNumber.swift */,
 				18C3B4671F2B9817003A327A /* BinaryTreeRightSideView.swift */,
 				18C3B4691F2BB161003A327A /* LongestPalidromicSubsequence.swift */,
+				18C3B46C1F2C50FE003A327A /* RotateFunction.swift */,
+				18C3B46E1F2CEEF2003A327A /* KdiffPairsInAnArray.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -311,7 +317,9 @@
 				18C3B4461F267FBC003A327A /* wordLadder.swift in Sources */,
 				18C3B45C1F292436003A327A /* VaildAnagram.swift in Sources */,
 				18C3B3FA1F23B093003A327A /* MergeTwoSortedLists.swift in Sources */,
+				18C3B46F1F2CEEF2003A327A /* KdiffPairsInAnArray.swift in Sources */,
 				18C3B46A1F2BB161003A327A /* LongestPalidromicSubsequence.swift in Sources */,
+				18C3B46D1F2C50FE003A327A /* RotateFunction.swift in Sources */,
 				18C3B40B1F247E93003A327A /* MergeKSortedLists.swift in Sources */,
 				18C3B4581F287B40003A327A /* SearchA2DMatrix.swift in Sources */,
 				18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */,
