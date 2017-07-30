@@ -14,11 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-//        let root = TreeNode(1)
-//        root.left = TreeNode(2)
-        let A = [4, 3, 2, 6]
+        let root = TreeNode(2)
+        root.left = TreeNode(5)
+        root.left = TreeNode(3)
+//        let A = ["EEEEE","EEMEE","EEEEE","EEEEE"]
+//        
+//        let S = A.map {
+//            return Array($0.characters)
+//        }
+//            
         
-        print(maxRotateFunction(A))
+        print(findFrequentTreeSum(root))
     }
 
 }
