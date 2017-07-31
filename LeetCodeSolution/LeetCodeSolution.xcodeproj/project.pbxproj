@@ -61,6 +61,11 @@
 		18C3B4781F2E46E5003A327A /* MostFrequentSubtreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4771F2E46E5003A327A /* MostFrequentSubtreeSum.swift */; };
 		18C3B47A1F2E6361003A327A /* SuperWashingMachines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4791F2E6361003A327A /* SuperWashingMachines.swift */; };
 		18C3B47C1F2E69CD003A327A /* OptimalDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B47B1F2E69CD003A327A /* OptimalDivision.swift */; };
+		18C3B47E1F2E8EB0003A327A /* RepeatedSubstringPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B47D1F2E8EB0003A327A /* RepeatedSubstringPattern.swift */; };
+		18C3B4801F2E9856003A327A /* SortCharactersByFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B47F1F2E9856003A327A /* SortCharactersByFrequency.swift */; };
+		18C3B4821F2E9DCA003A327A /* MergeTwoBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4811F2E9DCA003A327A /* MergeTwoBinaryTree.swift */; };
+		18C3B4841F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4831F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift */; };
+		18C3B4861F2EB30D003A327A /* SolveTheEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4851F2EB30D003A327A /* SolveTheEquation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +125,11 @@
 		18C3B4771F2E46E5003A327A /* MostFrequentSubtreeSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostFrequentSubtreeSum.swift; sourceTree = "<group>"; };
 		18C3B4791F2E6361003A327A /* SuperWashingMachines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperWashingMachines.swift; sourceTree = "<group>"; };
 		18C3B47B1F2E69CD003A327A /* OptimalDivision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimalDivision.swift; sourceTree = "<group>"; };
+		18C3B47D1F2E8EB0003A327A /* RepeatedSubstringPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatedSubstringPattern.swift; sourceTree = "<group>"; };
+		18C3B47F1F2E9856003A327A /* SortCharactersByFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortCharactersByFrequency.swift; sourceTree = "<group>"; };
+		18C3B4811F2E9DCA003A327A /* MergeTwoBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoBinaryTree.swift; sourceTree = "<group>"; };
+		18C3B4831F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructStringFromBinaryTree.swift; sourceTree = "<group>"; };
+		18C3B4851F2EB30D003A327A /* SolveTheEquation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveTheEquation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +210,11 @@
 				18C3B4771F2E46E5003A327A /* MostFrequentSubtreeSum.swift */,
 				18C3B4791F2E6361003A327A /* SuperWashingMachines.swift */,
 				18C3B47B1F2E69CD003A327A /* OptimalDivision.swift */,
+				18C3B47D1F2E8EB0003A327A /* RepeatedSubstringPattern.swift */,
+				18C3B47F1F2E9856003A327A /* SortCharactersByFrequency.swift */,
+				18C3B4811F2E9DCA003A327A /* MergeTwoBinaryTree.swift */,
+				18C3B4831F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift */,
+				18C3B4851F2EB30D003A327A /* SolveTheEquation.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -309,20 +324,24 @@
 				18C3B4381F25796C003A327A /* SetMatrixZeros.swift in Sources */,
 				18C3B4741F2DA52B003A327A /* ComplexNumberMultiplication.swift in Sources */,
 				18C3B4601F29ADD3003A327A /* TwoSumInputArraySorted.swift in Sources */,
+				18C3B4861F2EB30D003A327A /* SolveTheEquation.swift in Sources */,
 				18C3B4341F255C0F003A327A /* RotateImage.swift in Sources */,
 				18C3B3DC1F232113003A327A /* LeetCodeSolution.xcdatamodeld in Sources */,
 				18C3B3F71F232223003A327A /* LetterCombinationsOfAPhoneNumbe.swift in Sources */,
 				18C3B43C1F25BAE1003A327A /* ValidateBinarySearchTree.swift in Sources */,
 				18C3B45A1F291AC7003A327A /* SearchA2DMatrix2.swift in Sources */,
+				18C3B4841F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift in Sources */,
 				18C3B4321F250F0E003A327A /* TrappingRainWater.swift in Sources */,
 				18C3B44C1F27F19B003A327A /* NumberOfIslands.swift in Sources */,
 				18C3B45E1F294468003A327A /* KthLargestElementInAnArray.swift in Sources */,
 				18C3B4501F283F53003A327A /* ProductOfArrayExeceptSelf.swift in Sources */,
+				18C3B4801F2E9856003A327A /* SortCharactersByFrequency.swift in Sources */,
 				18C3B3F11F232223003A327A /* LongestPalindromicSubstring.swift in Sources */,
 				18C3B3D61F232113003A327A /* ViewController.swift in Sources */,
 				18C3B4481F270865003A327A /* WordLadder2.swift in Sources */,
 				18C3B4421F26556A003A327A /* SubmissionDetails.swift in Sources */,
 				18C3B4681F2B9817003A327A /* BinaryTreeRightSideView.swift in Sources */,
+				18C3B4821F2E9DCA003A327A /* MergeTwoBinaryTree.swift in Sources */,
 				18C3B40E1F24810C003A327A /* Heap.swift in Sources */,
 				18C3B47A1F2E6361003A327A /* SuperWashingMachines.swift in Sources */,
 				18C3B3D41F232113003A327A /* AppDelegate.swift in Sources */,
@@ -330,6 +349,7 @@
 				18C3B3F41F232223003A327A /* LengthOfLongestSubstring.swift in Sources */,
 				18C3B4441F266FC0003A327A /* BestTimeToBuyAndSellStock.swift in Sources */,
 				18C3B3F61F232223003A327A /* StringToInteger.swift in Sources */,
+				18C3B47E1F2E8EB0003A327A /* RepeatedSubstringPattern.swift in Sources */,
 				18C3B4521F284C22003A327A /* SlidingWindowMaximum.swift in Sources */,
 				18C3B44A1F27C346003A327A /* WordBreak.swift in Sources */,
 				18C3B4661F2A409C003A327A /* ThirdMaximumNumber.swift in Sources */,
