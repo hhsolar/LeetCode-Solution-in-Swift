@@ -61,5 +61,42 @@ func smallest(_ start: Int, _ end: Int) -> Int {
     return m
 }
 
+//func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
+//
+//    guard nums.count > 1 else { return nums[0] }
+//    var n = nums
+//
+//    var left = 0, right = nums.count - 1
+//    while true {
+//        let res = quickSort(&n, left, right)
+//        if res < k {
+//            left = res + 1
+//        } else if res > k {
+//            right = res - 1
+//        } else {
+//            return n[res]
+//        }
+//    }
+//}
+//
+//func quickSort(_ nums: inout [Int], _ start: Int, _ end: Int) -> Int {
+//    var left = start + 1, right = end
+//    while left < right {
+//        if nums[left] < nums[start] && nums[right] > nums[start] {
+//            (nums[left], nums[right]) = (nums[right], nums[left])
+//            left += 1
+//            right -= 1
+//        }
+//        if nums[left] >= nums[start] {
+//            left += 1
+//        }
+//        if nums[right] <= nums[start] {
+//            right -= 1
+//        }
+//    }
+//    (nums[right], nums[start]) = (nums[start], nums[right])
+//    return right + 1
+//}
+
 
 

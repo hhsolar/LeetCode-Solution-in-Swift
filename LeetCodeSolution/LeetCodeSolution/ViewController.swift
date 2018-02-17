@@ -32,8 +32,16 @@ class ViewController: UIViewController {
 //        }
 //            
 //        let r = mergeTrees(root1, root2)
-        let s = "-x=-1"
-        print(solveEquation(s))
+        var n1 = 1, n2 = 2
+        print(n1, n2)
+        swap(&n1, &n2)
+        print(n1, n2)
+    }
+    
+    func swap(_ n1: inout Int, _ n2: inout Int) {
+        let temp = n2
+        n2 = n1
+        n1 = temp
     }
 
 }

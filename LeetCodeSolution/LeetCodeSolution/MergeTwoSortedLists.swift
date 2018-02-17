@@ -8,6 +8,25 @@
 
 import Foundation
 
+// Method 1
+
+//func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+//    return merge(l1, l2)
+//}
+//
+//func merge(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+//    guard let l1 = l1 else { return l2 }
+//    guard let l2 = l2 else { return l1 }
+//
+//    if l1.val < l2.val {
+//        l1.next = merge(l1.next, l2)
+//        return l1
+//    } else {
+//        l2.next = merge(l1, l2.next)
+//        return l2
+//    }
+//}
+
 func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     
     if l1 == nil && l2 == nil {

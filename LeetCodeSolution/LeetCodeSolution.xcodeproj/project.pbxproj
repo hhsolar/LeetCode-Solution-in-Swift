@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180794D32038CD66004D3003 /* 771_JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180794D22038CD66004D3003 /* 771_JewelsAndStones.swift */; };
 		18C3B3D41F232113003A327A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3D31F232113003A327A /* AppDelegate.swift */; };
 		18C3B3D61F232113003A327A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3D51F232113003A327A /* ViewController.swift */; };
 		18C3B3D91F232113003A327A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3B3D71F232113003A327A /* Main.storyboard */; };
@@ -66,9 +67,11 @@
 		18C3B4821F2E9DCA003A327A /* MergeTwoBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4811F2E9DCA003A327A /* MergeTwoBinaryTree.swift */; };
 		18C3B4841F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4831F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift */; };
 		18C3B4861F2EB30D003A327A /* SolveTheEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4851F2EB30D003A327A /* SolveTheEquation.swift */; };
+		18CB75A820054942000E8549 /* Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB75A720054942000E8549 /* Dungeon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180794D22038CD66004D3003 /* 771_JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 771_JewelsAndStones.swift; sourceTree = "<group>"; };
 		18C3B3D01F232113003A327A /* LeetCodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C3B3D31F232113003A327A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C3B3D51F232113003A327A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +133,7 @@
 		18C3B4811F2E9DCA003A327A /* MergeTwoBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoBinaryTree.swift; sourceTree = "<group>"; };
 		18C3B4831F2EA9EE003A327A /* ConstructStringFromBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructStringFromBinaryTree.swift; sourceTree = "<group>"; };
 		18C3B4851F2EB30D003A327A /* SolveTheEquation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveTheEquation.swift; sourceTree = "<group>"; };
+		18CB75A720054942000E8549 /* Dungeon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180794D42038CDC4004D3003 /* HashTable */ = {
+			isa = PBXGroup;
+			children = (
+				180794D22038CD66004D3003 /* 771_JewelsAndStones.swift */,
+			);
+			name = HashTable;
+			sourceTree = "<group>";
+		};
 		18C3B3C71F232113003A327A = {
 			isa = PBXGroup;
 			children = (
@@ -162,8 +174,8 @@
 		18C3B3D21F232113003A327A /* LeetCodeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				180794D42038CDC4004D3003 /* HashTable */,
 				18C3B4011F243ED2003A327A /* Data Structure */,
-				18C3B3D51F232113003A327A /* ViewController.swift */,
 				18C3B3E81F23212D003A327A /* Supporting Files */,
 				18C3B3E91F232223003A327A /* LongestPalindromicSubstring.swift */,
 				18C3B3EA1F232223003A327A /* 2Sum.swift */,
@@ -222,12 +234,14 @@
 		18C3B3E81F23212D003A327A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18C3B3D51F232113003A327A /* ViewController.swift */,
 				18C3B3D31F232113003A327A /* AppDelegate.swift */,
 				18C3B3D71F232113003A327A /* Main.storyboard */,
 				18C3B3DD1F232113003A327A /* Assets.xcassets */,
 				18C3B3DF1F232113003A327A /* LaunchScreen.storyboard */,
 				18C3B3E21F232113003A327A /* Info.plist */,
 				18C3B3DA1F232113003A327A /* LeetCodeSolution.xcdatamodeld */,
+				18CB75A720054942000E8549 /* Dungeon.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -334,12 +348,14 @@
 				18C3B4321F250F0E003A327A /* TrappingRainWater.swift in Sources */,
 				18C3B44C1F27F19B003A327A /* NumberOfIslands.swift in Sources */,
 				18C3B45E1F294468003A327A /* KthLargestElementInAnArray.swift in Sources */,
+				180794D32038CD66004D3003 /* 771_JewelsAndStones.swift in Sources */,
 				18C3B4501F283F53003A327A /* ProductOfArrayExeceptSelf.swift in Sources */,
 				18C3B4801F2E9856003A327A /* SortCharactersByFrequency.swift in Sources */,
 				18C3B3F11F232223003A327A /* LongestPalindromicSubstring.swift in Sources */,
 				18C3B3D61F232113003A327A /* ViewController.swift in Sources */,
 				18C3B4481F270865003A327A /* WordLadder2.swift in Sources */,
 				18C3B4421F26556A003A327A /* SubmissionDetails.swift in Sources */,
+				18CB75A820054942000E8549 /* Dungeon.swift in Sources */,
 				18C3B4681F2B9817003A327A /* BinaryTreeRightSideView.swift in Sources */,
 				18C3B4821F2E9DCA003A327A /* MergeTwoBinaryTree.swift in Sources */,
 				18C3B40E1F24810C003A327A /* Heap.swift in Sources */,

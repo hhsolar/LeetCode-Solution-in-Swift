@@ -46,6 +46,26 @@ func binarySearch(_ a: [Int], _ target: Int) -> Bool {
     }
 }
 
+//func binarySearch(_ arr: [Int], _ target: Int, _ start: Int, _ end: Int) -> Bool {
+//    if start >= end {
+//        if arr[start] == target {
+//            return true
+//        } else {
+//            return false
+//        }
+//    }
+//
+//    var mid = start + (end - start) / 2
+//
+//    if target < arr[mid] {
+//        return binarySearch(arr, target, start, mid - 1)
+//    } else if target > arr[mid] {
+//        return binarySearch(arr, target, mid + 1, end)
+//    } else if target == arr[mid] {
+//        return true
+//    }
+//    return false
+//}
 
 
 

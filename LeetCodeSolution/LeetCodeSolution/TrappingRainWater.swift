@@ -9,19 +9,26 @@
 import Foundation
 
 func trap(_ height: [Int]) -> Int {
-    var level = 0, water = 0, l = 0, r = (height.count - 1), lower = 0
-    while l < r {
-        if height[l] > height[r] {
-            lower = height[r]
-            r -= 1
-        } else {
-            lower = height[l]
-            l -= 1
-        }
-        level = max(level, lower)
-    }
-    return water
+    var left = 0, right = height.count - 1, water = 0
     
+    while left < right {
+        var small = min(height[left], height[right])
+        if height[left] == small {
+            left += 1
+            while height[left] < small {
+                water += (small - height[left])
+                left += 1
+            }
+        } else if height[right] == small {
+            right -= 1
+            while height[right] < small {
+                water += (small - height[right])
+                right -= 1
+            }
+        }
+    }
+    
+    return water
 }
 
 
