@@ -35,7 +35,7 @@ func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
             
             let currentRange = s.index(s.startIndex, offsetBy: i - currentWordLength)..<s.index(s.startIndex, offsetBy: i)
             let currentSubString = String(s[currentRange])
-            if wordSet.contains(currentSubString!) {
+            if wordSet.contains(currentSubString) {
                 queryArray[i] = true
                 break
             }
