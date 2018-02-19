@@ -21,10 +21,3 @@ func numJewelsInStones(_ J: String, _ S: String) -> Int {
     }
     return res
 }
-
-extension Sequence where Element: Hashable {
-    var frequency : [Element: Int] {
-        let frequencyPairs = self.map { ($0, 1) }
-        return Dictionary(frequencyPairs, uniquingKeysWith: +)
-    }
-}
