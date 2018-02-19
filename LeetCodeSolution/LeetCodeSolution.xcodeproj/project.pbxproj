@@ -20,6 +20,10 @@
 		180794E9203A6D25004D3003 /* 404_SumOfLeftLeaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180794E8203A6D25004D3003 /* 404_SumOfLeftLeaves.swift */; };
 		180794EB203A71B9004D3003 /* 242_ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180794EA203A71B9004D3003 /* 242_ValidAnagram.swift */; };
 		180794EE203A7356004D3003 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180794ED203A7356004D3003 /* Extension.swift */; };
+		180794F0203AA46E004D3003 /* 387_FirstUniqueCharacterInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180794EF203AA46E004D3003 /* 387_FirstUniqueCharacterInAString.swift */; };
+		180794F2203AA967004D3003 /* 206_ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180794F1203AA967004D3003 /* 206_ReverseLinkedList.swift */; };
+		187C9879203AAD06000782AA /* 543_DiameterOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C9878203AAD06000782AA /* 543_DiameterOfBinaryTree.swift */; };
+		187C987B203AB668000782AA /* 70_ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C987A203AB668000782AA /* 70_ClimbingStairs.swift */; };
 		18C3B3D41F232113003A327A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3D31F232113003A327A /* AppDelegate.swift */; };
 		18C3B3D61F232113003A327A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B3D51F232113003A327A /* ViewController.swift */; };
 		18C3B3D91F232113003A327A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3B3D71F232113003A327A /* Main.storyboard */; };
@@ -55,8 +59,6 @@
 		18C3B44E1F27FE98003A327A /* FindAllAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B44D1F27FE98003A327A /* FindAllAnagrams.swift */; };
 		18C3B4501F283F53003A327A /* ProductOfArrayExeceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B44F1F283F53003A327A /* ProductOfArrayExeceptSelf.swift */; };
 		18C3B4521F284C22003A327A /* SlidingWindowMaximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4511F284C22003A327A /* SlidingWindowMaximum.swift */; };
-		18C3B4541F2861F2003A327A /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4531F2861F2003A327A /* ReverseLinkedList.swift */; };
-		18C3B4561F28739E003A327A /* FirstUniqueCharacterInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4551F28739E003A327A /* FirstUniqueCharacterInAString.swift */; };
 		18C3B4581F287B40003A327A /* SearchA2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4571F287B40003A327A /* SearchA2DMatrix.swift */; };
 		18C3B45A1F291AC7003A327A /* SearchA2DMatrix2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B4591F291AC7003A327A /* SearchA2DMatrix2.swift */; };
 		18C3B45E1F294468003A327A /* KthLargestElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B45D1F294468003A327A /* KthLargestElementInAnArray.swift */; };
@@ -92,6 +94,10 @@
 		180794E8203A6D25004D3003 /* 404_SumOfLeftLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 404_SumOfLeftLeaves.swift; sourceTree = "<group>"; };
 		180794EA203A71B9004D3003 /* 242_ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242_ValidAnagram.swift; sourceTree = "<group>"; };
 		180794ED203A7356004D3003 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		180794EF203AA46E004D3003 /* 387_FirstUniqueCharacterInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 387_FirstUniqueCharacterInAString.swift; sourceTree = "<group>"; };
+		180794F1203AA967004D3003 /* 206_ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 206_ReverseLinkedList.swift; sourceTree = "<group>"; };
+		187C9878203AAD06000782AA /* 543_DiameterOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 543_DiameterOfBinaryTree.swift; sourceTree = "<group>"; };
+		187C987A203AB668000782AA /* 70_ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70_ClimbingStairs.swift; sourceTree = "<group>"; };
 		18C3B3D01F232113003A327A /* LeetCodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C3B3D31F232113003A327A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C3B3D51F232113003A327A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,8 +135,6 @@
 		18C3B44D1F27FE98003A327A /* FindAllAnagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindAllAnagrams.swift; sourceTree = "<group>"; };
 		18C3B44F1F283F53003A327A /* ProductOfArrayExeceptSelf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExeceptSelf.swift; sourceTree = "<group>"; };
 		18C3B4511F284C22003A327A /* SlidingWindowMaximum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingWindowMaximum.swift; sourceTree = "<group>"; };
-		18C3B4531F2861F2003A327A /* ReverseLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
-		18C3B4551F28739E003A327A /* FirstUniqueCharacterInAString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacterInAString.swift; sourceTree = "<group>"; };
 		18C3B4571F287B40003A327A /* SearchA2DMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchA2DMatrix.swift; sourceTree = "<group>"; };
 		18C3B4591F291AC7003A327A /* SearchA2DMatrix2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchA2DMatrix2.swift; sourceTree = "<group>"; };
 		18C3B45D1F294468003A327A /* KthLargestElementInAnArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KthLargestElementInAnArray.swift; sourceTree = "<group>"; };
@@ -191,6 +195,10 @@
 		18C3B3C71F232113003A327A = {
 			isa = PBXGroup;
 			children = (
+				187C987A203AB668000782AA /* 70_ClimbingStairs.swift */,
+				187C9878203AAD06000782AA /* 543_DiameterOfBinaryTree.swift */,
+				180794F1203AA967004D3003 /* 206_ReverseLinkedList.swift */,
+				180794EF203AA46E004D3003 /* 387_FirstUniqueCharacterInAString.swift */,
 				180794EA203A71B9004D3003 /* 242_ValidAnagram.swift */,
 				180794E8203A6D25004D3003 /* 404_SumOfLeftLeaves.swift */,
 				180794E6203A65D5004D3003 /* 122_BestTimeToBuyAndSellStockII.swift */,
@@ -246,8 +254,6 @@
 				18C3B44D1F27FE98003A327A /* FindAllAnagrams.swift */,
 				18C3B44F1F283F53003A327A /* ProductOfArrayExeceptSelf.swift */,
 				18C3B4511F284C22003A327A /* SlidingWindowMaximum.swift */,
-				18C3B4531F2861F2003A327A /* ReverseLinkedList.swift */,
-				18C3B4551F28739E003A327A /* FirstUniqueCharacterInAString.swift */,
 				18C3B4571F287B40003A327A /* SearchA2DMatrix.swift */,
 				18C3B4591F291AC7003A327A /* SearchA2DMatrix2.swift */,
 				18C3B45D1F294468003A327A /* KthLargestElementInAnArray.swift */,
@@ -380,6 +386,7 @@
 				18C3B3F51F232223003A327A /* AddTwoNumber.swift in Sources */,
 				18C3B4381F25796C003A327A /* SetMatrixZeros.swift in Sources */,
 				18C3B4741F2DA52B003A327A /* ComplexNumberMultiplication.swift in Sources */,
+				187C9879203AAD06000782AA /* 543_DiameterOfBinaryTree.swift in Sources */,
 				18C3B4601F29ADD3003A327A /* TwoSumInputArraySorted.swift in Sources */,
 				180794D620391B14004D3003 /* 657_JudgeRouteCircle.swift in Sources */,
 				18C3B4861F2EB30D003A327A /* SolveTheEquation.swift in Sources */,
@@ -393,6 +400,7 @@
 				18C3B4321F250F0E003A327A /* TrappingRainWater.swift in Sources */,
 				18C3B44C1F27F19B003A327A /* NumberOfIslands.swift in Sources */,
 				18C3B45E1F294468003A327A /* KthLargestElementInAnArray.swift in Sources */,
+				180794F0203AA46E004D3003 /* 387_FirstUniqueCharacterInAString.swift in Sources */,
 				180794E1203A1F94004D3003 /* 663_TwoSumIV.swift in Sources */,
 				180794D32038CD66004D3003 /* 771_JewelsAndStones.swift in Sources */,
 				18C3B4501F283F53003A327A /* ProductOfArrayExeceptSelf.swift in Sources */,
@@ -402,12 +410,12 @@
 				180794DD20396DC0004D3003 /* 637_AverageOfLevelsInBinaryTree.swift in Sources */,
 				18C3B4481F270865003A327A /* WordLadder2.swift in Sources */,
 				18C3B4421F26556A003A327A /* SubmissionDetails.swift in Sources */,
+				187C987B203AB668000782AA /* 70_ClimbingStairs.swift in Sources */,
 				18CB75A820054942000E8549 /* Dungeon.swift in Sources */,
 				18C3B4681F2B9817003A327A /* BinaryTreeRightSideView.swift in Sources */,
 				18C3B40E1F24810C003A327A /* Heap.swift in Sources */,
 				18C3B47A1F2E6361003A327A /* SuperWashingMachines.swift in Sources */,
 				18C3B3D41F232113003A327A /* AppDelegate.swift in Sources */,
-				18C3B4541F2861F2003A327A /* ReverseLinkedList.swift in Sources */,
 				18C3B3F41F232223003A327A /* LengthOfLongestSubstring.swift in Sources */,
 				18C3B4441F266FC0003A327A /* BestTimeToBuyAndSellStock.swift in Sources */,
 				18C3B3F61F232223003A327A /* StringToInteger.swift in Sources */,
@@ -429,12 +437,12 @@
 				18C3B40B1F247E93003A327A /* MergeKSortedLists.swift in Sources */,
 				18C3B4581F287B40003A327A /* SearchA2DMatrix.swift in Sources */,
 				18C3B3F81F232223003A327A /* ValidParatheses.swift in Sources */,
-				18C3B4561F28739E003A327A /* FirstUniqueCharacterInAString.swift in Sources */,
 				180794EB203A71B9004D3003 /* 242_ValidAnagram.swift in Sources */,
 				180794DB2039650F004D3003 /* Queue.swift in Sources */,
 				18C3B4641F29B38E003A327A /* CountPrimes.swift in Sources */,
 				18C3B44E1F27FE98003A327A /* FindAllAnagrams.swift in Sources */,
 				18C3B4361F2568F1003A327A /* GroupAnagrams.swift in Sources */,
+				180794F2203AA967004D3003 /* 206_ReverseLinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
