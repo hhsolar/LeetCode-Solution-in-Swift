@@ -18,9 +18,3 @@ public class TreeNode {
         self.right = nil
     }
 }
-
-extension TreeNode {
-    var isLeafNode: Bool {
-        return self.left == nil && self.right == nil
-    }
-}

@@ -14,3 +14,9 @@ extension Sequence where Element: Hashable {
         return Dictionary(frequencyPairs, uniquingKeysWith: +)
     }
 }
+
+extension TreeNode {
+    var isLeafNode: Bool {
+        return self.left == nil && self.right == nil
+    }
+}
