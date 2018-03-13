@@ -1,33 +1,21 @@
 //
-//  FindAllAnagrams.swift
+//  438_FindAllAnagramsInAString.swift
 //  LeetCodeSolution
 //
-//  Created by apple on 25/7/2017.
-//  Copyright © 2017 greatwall. All rights reserved.
+//  Created by apple on 2/3/2018.
+//  Copyright © 2018 greatwall. All rights reserved.
 //
 
 import Foundation
 
-var pLen = 0
-
 func findAnagrams(_ s: String, _ p: String) -> [Int] {
-    
-    guard p.characters.count < s.characters.count else { return [] }
+    let sLen = s.count, pLen = p.count
+    guard pLen < sLen else { return [] }
     
     var indexSet = [Int]()
-    pLen = p.characters.count
-    let sLen = s.characters.count
-    let sc = Array(s.characters)
-    let pc = Array(p.characters)
-
-    var dict = Dictionary<Character, Int>()
-    for i in pc {
-        if let e = dict[i] {
-            dict[i] = e + 1
-        } else {
-            dict[i] = 1
-        }
-    }
+    let sc = Array(s)
+    
+    let dict = Array(p).frequency
     
     var i = 0
     while i <= sLen-pLen  {
@@ -45,18 +33,18 @@ func findAnagrams(_ s: String, _ p: String) -> [Int] {
 
 func isAnagrams(_ s: [Character], _ dict: Dictionary<Character, Int>, _ i: inout Int) -> Bool {
     var dict = dict
+    let pLen = dict.values.reduce(0, +)
     
     for j in i..<i+pLen {
-        if let x = dict[s[j]] {
-            dict[s[j]] = x - 1
-        } else {
+        guard let x = dict[s[j]] else {
             i = j
             return false
         }
+        dict[s[j]] = x - 1
     }
     
     for v in dict.values {
-        if v != 0 { return false}
+        if v != 0 { return false }
     }
     return true
 }

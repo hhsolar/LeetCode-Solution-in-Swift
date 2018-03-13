@@ -9,23 +9,15 @@
 import Foundation
 
 func reverseList(_ head: ListNode?) -> ListNode? {
+    var cur = head
+    var pre: ListNode? = nil
     
-    guard let h = head else { return nil }
-    guard let n = h.next else { return h }
-    
-    var a = n.next
-    var b = n
-    var c = h
-    h.next = nil
-    
-    while a != nil {
-        b.next = c
-        c = b
-        b = a!
-        a = a!.next
+    while let c = cur {
+        let next = c.next
+        c.next = pre
+        pre = c
+        cur = next
     }
-    b.next = c
     
-    return b
-    
+    return pre
 }
