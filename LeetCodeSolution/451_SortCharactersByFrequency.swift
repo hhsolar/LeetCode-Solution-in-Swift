@@ -10,13 +10,12 @@ import Foundation
 
 func frequencySort(_ s: String) -> String {
     guard s.count > 1 else { return s }
-    let dict = Array(s.characters).frequency
-    let arr = zip(Array(dict.values), Array(dict.keys)).sorted(by: >)
+    let dict = Array(s.characters).frequency.sorted{ l, r in l.value > r.value }
     var res = ""
-    for i in arr {
-        var j = i.0
+    for d in dict {
+        var j = d.value
         while j > 0 {
-            res += String(i.1)
+            res += String(d.key)
             j -= 1
         }
     }

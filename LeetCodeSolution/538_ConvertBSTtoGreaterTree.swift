@@ -10,7 +10,7 @@ import Foundation
 
 func convertBST(_ root: TreeNode?) -> TreeNode? {
     
-    convertBSTHelper(root, 0)
+    _ = convertBSTHelper(root, 0)
     
     return root
 }

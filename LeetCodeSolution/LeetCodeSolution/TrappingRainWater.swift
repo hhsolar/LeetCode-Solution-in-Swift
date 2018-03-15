@@ -12,7 +12,7 @@ func trap(_ height: [Int]) -> Int {
     var left = 0, right = height.count - 1, water = 0
     
     while left < right {
-        var small = min(height[left], height[right])
+        let small = min(height[left], height[right])
         if height[left] == small {
             left += 1
             while height[left] < small {
