@@ -8,7 +8,7 @@
 
 import Foundation
 
-func rob(_ nums: [Int]) -> Int {
+func rob2(_ nums: [Int]) -> Int {
     let len = nums.count
     switch len {
     case 0:

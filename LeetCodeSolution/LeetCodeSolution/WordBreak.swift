@@ -12,18 +12,16 @@ func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
     
     guard wordDict.count > 0 else { return false }
     
-    var wordSet = Set<String>()
-    for w in wordDict { wordSet.insert(w) }
-    
+    let wordSet = Set(wordDict)
     let longestWordLength = wordSet.reduce(0) {
-        return max($0, $1.characters.count)
+        return max($0, $1.count)
     }
     
-    var queryArray = Array(repeating: false, count: s.characters.count + 1)
+    var queryArray = Array(repeating: false, count: s.count + 1)
     
     queryArray[0] = true
     
-    for i in 1...s.characters.count {
+    for i in 1...s.count {
         for currentWordLength in 1...longestWordLength {
             if i < currentWordLength {
                 break
@@ -41,5 +39,5 @@ func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
             }
         }
     }
-    return queryArray[s.characters.count]
+    return queryArray[s.count]
 }

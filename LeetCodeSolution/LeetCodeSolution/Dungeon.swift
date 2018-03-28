@@ -52,7 +52,8 @@ var health = 5
 func findT() -> Int {
     guard dungeon.count > 0 else { return -1 }
     guard dungeon[0].count > 0 else { return -1 }
-    
+    let m = dungeon.count
+    let n = dungeon[0].count
     var res = -1
     
     var queue = [position(y: 0, x: 0)]

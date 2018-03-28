@@ -41,44 +41,44 @@ import Foundation
 
 // MARK: Recursion
 
-var len = 0
-var cs = [Int]()
-
-let dict = [[""], [""], ["a","b","c"], ["d","e","f"], ["g","h","i"], ["j","k","l"], ["m","n","o"], ["p","q","r","s"], ["t","u","v"], ["w","x","y","z"]]
-
-func letterCombinations(_ digits: String) -> [String] {
-    
-    if digits.characters.count == 0 { return [] }
-    
-    len = digits.characters.count
-    
-    cs = Array(digits.characters).map {
-        return Int(String($0))!
-    }
-
-    let depth = 0
-    
-    let res = dfs(depth, "")
-    
-    return res
-}
-
-func dfs(_ depth: Int, _ current: String) -> [String] {
-    var d = depth
-    
-    if d > len - 1 { return [current] }
-    
-    if cs[d] < 2 {
-        d += 1
-        if d > len - 1 { return [current] }
-    }
-    
-    var result = [String]()
-    
-    for c in dict[cs[d]] {
-        let temp = dfs(d+1, current + c)
-        result.append(contentsOf: temp)
-    }
-    return result
-}
+//var len = 0
+//var cs = [Int]()
+//
+//let dict = [[""], [""], ["a","b","c"], ["d","e","f"], ["g","h","i"], ["j","k","l"], ["m","n","o"], ["p","q","r","s"], ["t","u","v"], ["w","x","y","z"]]
+//
+//func letterCombinations(_ digits: String) -> [String] {
+//
+//    if digits.characters.count == 0 { return [] }
+//
+//    len = digits.characters.count
+//
+//    cs = Array(digits.characters).map {
+//        return Int(String($0))!
+//    }
+//
+//    let depth = 0
+//
+//    let res = dfs(depth, "")
+//
+//    return res
+//}
+//
+//func dfs(_ depth: Int, _ current: String) -> [String] {
+//    var d = depth
+//
+//    if d > len - 1 { return [current] }
+//
+//    if cs[d] < 2 {
+//        d += 1
+//        if d > len - 1 { return [current] }
+//    }
+//
+//    var result = [String]()
+//
+//    for c in dict[cs[d]] {
+//        let temp = dfs(d+1, current + c)
+//        result.append(contentsOf: temp)
+//    }
+//    return result
+//}
 

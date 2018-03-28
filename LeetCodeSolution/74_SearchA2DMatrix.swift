@@ -8,7 +8,7 @@
 
 import Foundation
 
-func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
+func searchA2DMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
     let m = matrix.flatMap { $0 }
     guard m.count > 0 else { return false }
     if target < m.first! || target > m.last! { return false }
